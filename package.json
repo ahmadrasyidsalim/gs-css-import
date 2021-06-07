@@ -1,0 +1,19 @@
+{
+  "name": "gs-css-import",
+  "type": "module",
+  "private": "true",
+  "version": "1.0.0",
+  "author": "Ahmad Rasyid Salim <salimahmadrasyid@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "suitcss-utils-text": "^1.0.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.3.0",
+    "postcss-import": "^14.0.2"
+  },
+  "scripts": {
+    "build": "node index.js"
+  }
+}
